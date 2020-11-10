@@ -1,0 +1,168 @@
+@import "post_main.css";
+@import "image_main.css";
+@import "footer_main.css";
+
+.firstcontainer {
+    background-color: white;
+    width:100vw;
+     height:100vw;
+     padding-top:2050px;
+     padding-bottom:2050px;
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+}
+
+.secondcontainer {
+    width: 400px;
+    height: 4500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 62px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-areas:
+    "head head head head head head head"
+    ". post1 post1 post1 post1 post1 post1"
+    ". post2 post2 post2 post2 post2 post2"
+    ". post3 post3 post3 post3 post3 post3"
+    ". post4 post4 post4 post4 post4 post4"
+    ". post5 post5 post5 post5 post5 post5"
+    ". post6 post6 post6 post6 post6 post6"
+    ". info info info info info info"
+    ". post7 post7 post7 post7 post7 post7"
+    ". post8 post8 post8 post8 post8 post8"
+    ". post9 post9 post9 post9 post9 post9"
+    ". post10 post10 post10 post10 post10 post10"
+    "footer footer footer footer footer footer footer";
+    grid-row-gap: 150px;   
+}
+
+p {
+color:#11161A;
+}
+
+.maintitle {
+    margin-bottom: 0;
+}
+
+.header {
+    grid-area: head;
+    display:flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-right: 25px;
+    padding-left: 30px;
+}
+
+.suscribe {
+    color: #faf0db;
+    font-weight: 400;
+    background-color: #F8B32E;  
+    width: 60px;
+    border-width: 2px;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.search {
+    color: #F8B32E;
+    font-size: 18px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+#btnsearch {
+    font-size: 20px;
+}
+
+ .info {
+    grid-area:info;
+    padding-right: 90px;
+ }
+
+ #divinfo {  
+    border-color: #5C3F04;
+ }    
+
+ .exptext {
+     display:flex;
+     justify-content: space-between;     
+ }
+
+ #exptexts1 {
+    width: 650px;
+    height:210px;
+    text-align:center; 
+    margin: 10px;
+    border-radius: 200px;
+    overflow: hidden;
+ }
+
+ #exptexts2 {
+    width: 650px;
+    height:210px;
+    text-align:center; 
+    margin: 10px;
+    border-radius: 200px;
+    overflow: hidden;
+ }
+
+ #exptexts3 {
+    width: 650px;
+    height:210px;
+    text-align:center; 
+    margin: 10px;
+    border-radius: 200px;
+    overflow: hidden;
+ }
+
+ /*Devices with long screens. min 768px*/
+ @media screen and (max-width: 1149px) and (min-width: 768px) {
+
+
+    .firstcontainer {
+         padding-top:1900px;
+         padding-bottom:1900px;
+    }
+    
+    .secondcontainer {
+        width: 700px;
+        height: 4500px;;     
+    }
+ }
+
+/*If screen is wide enough - more than 1150px*/
+@media screen and (min-width: 1150px) {
+
+
+    .firstcontainer {
+        padding-top:650px;
+        padding-bottom:800px;
+    }
+
+    .secondcontainer {
+        top: 100px;
+        width: 1100px;
+        height: 2800px;
+        left: 76px;
+        top: 127px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
+        grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas:
+        "head head head head head head head"
+        ". post1 post1 . post2 post2 ."
+        ". post3 post3 . post4 post4 ."
+        ". post5 post5 . post6 post6 ."
+        ". info info info info info ."
+        ". post7 post7 . post8 post8 ."
+        ". post9 post9 . post10 post10 ."
+        " . . . . . footer footer";
+        grid-row-gap: 150px;  
+    }
+}

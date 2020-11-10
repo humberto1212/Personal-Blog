@@ -1,0 +1,31 @@
+.footer {
+    grid-area:footer;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icons:hover {
+    width: 30px;
+    height: 30px;
+}
+
+/* devices with long screens. For example Ipads*/
+@media screen and (max-width: 1149px) and (min-width: 768px) {
+
+    .footer {
+        margin-left: 270px;
+    }   
+
+    .icons{ 
+        margin-right: 10px;
+    }
+
+}
+

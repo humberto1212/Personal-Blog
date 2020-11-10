@@ -1,0 +1,245 @@
+
+.background1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage1::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/1.1.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.backgroundimage2::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/1.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.backgroundimage3::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/2.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.backgroundimage4::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/2.1.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage5::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/12.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage6::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/12.2.png);
+    background-position:top center;
+    background-size: cover;
+    opacity:0.4 ;
+}
+
+.background7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage7::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/54.png);
+    background-position:top center;
+    background-size: 130px;
+    background-position-y: 80px;
+    background-position-x: 30px;
+    background-repeat: no-repeat;
+    opacity:0.2 ;
+}
+
+.background8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage8::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/53.png);
+    background-position:top center;
+    background-size: 130px;
+    background-position-y: 80px;
+    background-position-x: 30px;
+    background-repeat: no-repeat;
+    opacity:0.2 ;
+}
+
+.background9 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage9::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/52.png);
+    background-position:top center;
+    background-size: 90px;
+    background-position-y: 80px;
+    background-position-x: 30px;
+    background-repeat: no-repeat;
+    opacity:0.2 ;
+}
+
+.background10 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.backgroundimage10::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background-image: url(/Users/humbertoangelucci/Desktop/Udacity/Blog/images/51.png);
+    background-position:top center;
+    background-size: 70px;
+    background-position-y: 80px;
+    background-position-x: 160px;
+    background-repeat: no-repeat;
+    opacity:0.2 ;
+}

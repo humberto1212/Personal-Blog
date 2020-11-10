@@ -1,0 +1,229 @@
+.titlecard {
+   position: relative;
+}
+
+.titlecard:hover {
+   cursor: default;
+}
+
+.datecard {
+   position: relative;
+    color: gray;
+    margin-left: 80px;   
+}
+
+.datecard:hover {
+   cursor: default;
+}
+
+.cardpoint {
+   position: relative;
+    font-weight: bold;
+    margin-left: 99px;
+}
+
+.cardpoint:hover {
+   cursor: default;
+}
+
+.postbutton {
+   background: none;
+   border: none;
+}
+
+.linkcard {
+   position: relative;
+   text-decoration: none; 
+   font-weight: 400;
+   font-size: 16px;
+    margin-left: 30px;
+    color: #C47D14; 
+}
+
+.post1 {
+    grid-area: post1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);       
+ }
+
+ .post2 {
+    grid-area: post2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+ }
+
+ .post3 {
+    grid-area: post3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);       
+ }
+
+ .post4 {
+    grid-area: post4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+ }
+
+ .post5 {
+    grid-area: post5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+ }
+
+ .post6 {
+    grid-area: post6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+ }
+
+ .post7 {
+    grid-area: post7;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);     
+ }
+
+ .post8 {
+    grid-area: post8;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);       
+ }
+
+ .post9 {
+    grid-area: post9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .post10 {
+    grid-area: post10;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 265px;
+    border-radius: 62px;
+    background: #F9F9FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);       
+ }
+
+.post1:hover, 
+.post2:hover,
+.post3:hover,
+.post4:hover,
+.post5:hover,
+.post6:hover,
+.post7:hover,
+.post8:hover,
+.post9:hover,
+.post10:hover {
+    background-color:  #dae5fd ;
+    transition: .7s;
+}
+
+/* devices with long screens. For example Ipads*/
+@media screen and (max-width: 1149px) and (min-width: 768px) {
+
+
+   .post1 {
+      margin-left: 80px;       
+   }
+  
+   .post2 {
+      margin-left: 80px;
+     
+   }
+  
+   .post3 {
+      margin-left: 80px;
+          
+   }
+  
+   .post4 {
+      margin-left: 80px;
+       
+   }
+  
+   .post5 {
+      margin-left: 80px;
+     
+   }
+  
+   .post6 {
+      margin-left: 80px;
+         
+   }
+  
+   .post7 {
+      margin-left: 80px;
+          
+   }
+  
+   .post8 {
+      margin-left: 80px;
+        
+   }
+  
+   .post9 {
+      margin-left: 80px;
+   
+   }
+   
+   .post10 {
+      margin-left: 80px;
+        
+   }  
+}
