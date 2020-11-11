@@ -17,7 +17,7 @@
     border-radius: 62px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 0px 300px 650px 300px 100px 150px 50px;
+    grid-template-rows: 100px 100px 0px 300px 650px 250px 100px 100px 100px;
     grid-template-areas:
     "head head head head"
     "avatar avatar avatar avatar"
@@ -213,7 +213,7 @@
 
 #footerblog {
     grid-area: icons;
-    margin-top: 30px;
+    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -278,7 +278,7 @@
         height: 1000px;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 50px 50px 0px 100px 250px 250px 150px 100px;
+        grid-template-rows: 50px 50px 0px 100px 269px 130px 90px 0;
         grid-template-areas:
         "head head head head"
         "avatar avatar avatar avatar"
@@ -286,8 +286,8 @@
         "heading heading heading about"
         "heading heading heading about "
         "subheading subheading subheading archieves "
-        "buttoms buttoms buttoms archieves"
-        ". . . icons";
+        ". . . icons"
+        "buttoms buttoms buttoms buttoms";
         grid-row-gap: 30px;
     }
 
