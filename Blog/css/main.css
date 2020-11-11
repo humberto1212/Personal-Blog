@@ -1,6 +1,6 @@
-@import "Blog/css/post_main.css";
-@import "Blog/css/image_main.css";
-@import "Blog/css/footer_main.css";
+@import url(post_main.css);
+@import url(image_main.css);
+@import url(footer_main.css);
 
 .firstcontainer {
     background-color: white;
