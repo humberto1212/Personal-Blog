@@ -1,6 +1,6 @@
-@import url(https://humberto1212.github.io/Personal-Blog/Blog/css/post_main.css);
-@import url(https://humberto1212.github.io/Personal-Blog/Blog/css/image_main.css);
-@import url(https://humberto1212.github.io/Personal-Blog/Blog/css/footer_main.css);
+@import url(./post_main.css);
+@import url(./image_main.css);
+@import url(./footer_main.css);
 
 .firstcontainer {
     background-color: white;
