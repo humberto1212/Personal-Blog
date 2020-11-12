@@ -52,6 +52,15 @@
     margin-left: 20px;    
 }
 
+.figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.figurecaption{
+    letter-spacing: 11px;
+}
+
 .image {
     height: 80px;
     width: 80px;
