@@ -2,8 +2,6 @@
 @import url(./image_main.css);
 @import url(./footer_main.css);
 
-/*small screen devices - more than 360px*/
-@media screen and (min-width: 360px) {
 
     
     .firstcontainer {
@@ -57,8 +55,8 @@
         display:flex;
         flex-direction: column;
         padding-top: 60px;
-        padding-right: 10px;  /* original 15*/
-        padding-left: 10px;     /* original 30*/
+        padding-right: 15px;  
+        padding-left: 30px;   
     }
 
     .nav {
@@ -73,22 +71,20 @@
         background-color: #F8B32E;  
         width: 60px;
         border-width: 2px;
-        font-size: 25px;      /*nuevo*/
-        padding: 10px;      /*lo subi 4px*/
+        padding: 6px;     
         border-radius: 10px;
         cursor: pointer;
     }
 
     .search {
         color: #F8B32E;
-        padding: 12px;       /*nuevo*/
-        font-size: 38px;   /*lo subi 20px*/     
+        font-size: 18px;       
         margin-top:20px;
         cursor: pointer;
     }
 
     #btnsearch {
-        font-size: 40px;    /*lo subi 20px*/
+        font-size: 20px;  
     }
 
     .info {
@@ -131,7 +127,6 @@
         border-radius: 200px;
         overflow: hidden;
     }
- } 
 
  /*Devices with long screens. min 768px*/
  @media screen and (max-width: 1149px) and (min-width: 768px) {
@@ -145,20 +140,6 @@
     .secondcontainer {
         width: 700px;
         height: 4500px;;     
-    }
-     
-    .suscribe {
-        font-size: 20px;      /*nuevo*/
-        padding: 6px;      /*original*/
-    }
-     
-     .search {
-        padding: 10px;       /*nuevo*/
-        font-size: 20px;   /*original 18*/     
-    }
-
-    #btnsearch {
-        font-size: 20px;    /*original*/
     }
  }
 
@@ -190,20 +171,6 @@
         ". post9 post9 . post10 post10 ."
         " . . . . . footer footer";
         grid-row-gap: 150px;  
-    }
-    
-     .suscribe {
-        font-size: 20px;      /*nuevo*/
-        padding: 6px;      /*original*/
-    }
-     
-     .search {
-        padding: 10px;       /*nuevo*/
-        font-size: 20px;   /*original 18*/     
-    }
-
-    #btnsearch {
-        font-size: 20px;    /*original*/
     }
  }
 
