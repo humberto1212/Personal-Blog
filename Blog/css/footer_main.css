@@ -14,6 +14,7 @@
 .icons:hover {
     width: 30px;
     height: 30px;
+    transition: .4s;
 }
 
 /* devices with long screens. For example Ipads*/
