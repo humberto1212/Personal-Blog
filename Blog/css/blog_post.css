@@ -1,328 +1,333 @@
-.firstcontainer_post {
-    width:100vw;
-    height:100vw;
-    padding-top:850px;
-    padding-bottom:850px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;  
-}
+/*Devices with small screens. min 360px*/
+ @media screen and (min-width: 360px) {
 
-.backhome {
+
+    .firstcontainer_post {
+        width:100vw;
+        height:100vw;
+        padding-top:850px;
+        padding-bottom:850px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .backhome {
     /*position: absolute;
     left: 130px;
     bottom: 600px;*/
-    font-weight: 400;
-    padding: 7px;
-    background-color: #F8B32E;  
-    border: none;
-    border-width: 2px;
-    border-radius: 10px;
-    cursor: pointer;
-}
+        font-weight: 400;
+        padding: 7px;
+        background-color: #F8B32E;  
+        border: none;
+        border-width: 2px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 
-.backhome:hover {
-    padding: 10px;
-    transition: 0.4s;
-}
+    .backhome:hover {
+        padding: 10px;
+        transition: 0.4s;
+    }
 
-.backlink {
-    color: #faf0db;
-    text-decoration: none;
-    font-size: 18px;
-    cursor: pointer;
-}
+    .backlink {
+        color: #faf0db;
+        text-decoration: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
 
-.secondcontainer_post {
-    width: 400px;
-    height: 2000px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 62px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 0px 300px 650px 250px 100px 100px 100px;
-    grid-template-areas:
-    "head head head head"
-    "avatar avatar avatar avatar"
-    ". . . . "
-    "about about about about"
-    "heading heading heading heading "
-    "subheading subheading subheading subheading "
-    "buttoms buttoms buttoms buttoms"
-    "archieves archieves archieves archieves"
-    "icons icons icons icons";
-    grid-row-gap: 30px;
-}
+    .secondcontainer_post {
+        width: 400px;
+        height: 2000px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(0, 0, 0, 0.25);
+        border-radius: 62px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 0px 300px 650px 250px 100px 100px 100px;
+        grid-template-areas:
+        "head head head head"
+        "avatar avatar avatar avatar"
+        ". . . . "
+        "about about about about"
+        "heading heading heading heading "
+        "subheading subheading subheading subheading "
+        "buttoms buttoms buttoms buttoms"
+        "archieves archieves archieves archieves"
+        "icons icons icons icons";
+        grid-row-gap: 30px;
+    }
 
-.title_blog {
-    text-decoration: none;
-    color: black;
-}
+    .title_blog {
+        text-decoration: none;
+        color: black;
+    }
 
-.title_blog:hover {
-    color:  #18ac9be5;
-}
+    .title_blog:hover {
+        color:  #18ac9be5;
+    }
 
-#posttitle {
-    grid-area: head;
-    display: flex;
-    justify-content: center;
-}
+    #posttitle {
+        grid-area: head;
+        display: flex;
+        justify-content: center;
+    }
 
-#avatar {
-    grid-area: avatar;
-    display: flex;
-    margin-left: 20px;    
-}
+    #avatar {
+        grid-area: avatar;
+        display: flex;
+        margin-left: 20px;    
+    }
 
-.figure {
-    display: flex;
-    flex-direction: column;
-}
+    .figure {
+        display: flex;
+        flex-direction: column;
+    }
 
-.figurecaption{
-    letter-spacing: 11px;
-}
+    .figurecaption{
+        letter-spacing: 11px;
+    }
 
-.image {
-    height: 80px;
-    width: 80px;
-    border-radius: 100%;
-    margin-right: 20px;   
-}
+    .image {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        margin-right: 20px;   
+    }
 
-.infopost {
-    color: #2C3339;
-}
+    .infopost {
+        color: #2C3339;
+    }
 
-.date {
-    margin-bottom: 0;  
-}
+    .date {
+        margin-bottom: 0;  
+    }
 
-.autor {
-    margin-top: 0.8px;
-    margin-bottom: 0;
-}
+    .autor {
+        margin-top: 0.8px;
+        margin-bottom: 0;
+    }
 
-.university {
-    margin-top: 0.8px;
-}
+    .university {
+        margin-top: 0.8px;
+    }
 
-#about {
-    grid-area: about;
-    display: flex;
-    flex-direction: column;
-    border: solid #1FBBA8;
-    padding: 10px;
-    border-radius: 30px;
-    height: 245px;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-align: justify;
-    padding-top: 0;    
-}
+    #about {
+        grid-area: about;
+        display: flex;
+        flex-direction: column;
+        border: solid #1FBBA8;
+        padding: 10px;
+        border-radius: 30px;
+        height: 245px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: justify;
+        padding-top: 0;    
+    }
 
-#divinfoblog {
-    width: 350px;
-    border-color: #1FBBA8;
-}
+    #divinfoblog {
+        width: 350px;
+        border-color: #1FBBA8;
+    }
 
-#heading {
-    grid-area: heading;
-    text-align: justify;
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
-    flex-direction: column;
-}
+    #heading {
+        grid-area: heading;
+        text-align: justify;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
 
-#subheading {
-    grid-area: subheading;
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
-    flex-direction: column;
-}
+    #subheading {
+        grid-area: subheading;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
 
-#buttoms {
-    grid-area: buttoms;
-    background-repeat: no-repeat;
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
-    align-items: flex-start;
-}
+    #buttoms {
+        grid-area: buttoms;
+        background-repeat: no-repeat;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        align-items: flex-start;
+    }
 
-.before {
-    color: #18ac9be5;  
-    border-style: solid;
-    border-width: 2px;
-    padding: 4px;
-    border-radius: 10px;
-    cursor: pointer;
-}
+    .before {
+        color: #18ac9be5;  
+        border-style: solid;
+        border-width: 2px;
+        padding: 4px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 
-.after {
-    color: #18ac9be5;  
-    border-style: solid;
-    border-width: 2px;
-    padding: 4px;
-    border-radius: 10px;
-    cursor: pointer; 
-    margin-left: 10px;
-}
-
-
-#archieves {
-    grid-area: archieves;
-    margin-left: 15px;
-    margin-right: 15px;        
-}
-
-.month {
-    font-weight: 900;
-}
-
-#january {
-    margin-right: 15px;
-    color: #B0ECE5;
-    text-decoration: none;   
-}
-
-#january:hover {
-    text-decoration: line-through;
-}
-
-#february { 
-    margin-right: 15px; 
-    color: #B0ECE5;
-    text-decoration: none;  
-}
-
-#february:hover { 
-    text-decoration: line-through; 
-}
-
-#march {
-    margin-right: 15px;
-    color: #B0ECE5;    
-    text-decoration: none;
-}
-
-#march:hover {
-    text-decoration: line-through;
-}
+    .after {
+        color: #18ac9be5;  
+        border-style: solid;
+        border-width: 2px;
+        padding: 4px;
+        border-radius: 10px;
+        cursor: pointer; 
+        margin-left: 10px;
+    }
 
 
-#april {
-    margin-right: 15px;
-    color: #B0ECE5;
-    text-decoration: none;   
-}
+    #archieves {
+        grid-area: archieves;
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
 
-#april:hover {
-    text-decoration: line-through;   
-} 
+    .month {
+        font-weight: 900;
+    }
 
-#may {
-    margin-right: 15px;
-    color:#B0ECE5;   
-    text-decoration: none;
-} 
+    #january {
+        margin-right: 15px;
+        color: #B0ECE5;
+        text-decoration: none;   
+    }
 
-#may:hover {
-    text-decoration: line-through;
-} 
+    #january:hover {
+        text-decoration: line-through;
+    }
 
-#june {
-    margin-right: 15px;
-    color: #B0ECE5;    
-    text-decoration: none;
-}
+    #february { 
+        margin-right: 15px; 
+        color: #B0ECE5;
+        text-decoration: none;  
+    }
 
-#june:hover {
-    text-decoration: line-through;
-} 
+    #february:hover { 
+        text-decoration: line-through; 
+    }
 
-#july {
-    margin-right: 15px;
-    color: #B0ECE5;    
-    text-decoration: none;
-}
+    #march {
+        margin-right: 15px;
+        color: #B0ECE5;    
+        text-decoration: none;
+    }
 
-#july:hover {
-    text-decoration: line-through;
-} 
-
-#august {
-    margin-right: 15px;
-    color: #B0ECE5;  
-    text-decoration: none;
-} 
-
-#august:hover {
-    text-decoration: line-through;
-} 
-
-#september {
-    margin-right: 15px;
-    color: #B0ECE5;   
-    text-decoration: none;
-} 
-
-#september:hover {
-    text-decoration: line-through;
-} 
+    #march:hover {
+        text-decoration: line-through;
+    }
 
 
-#october {
-    margin-right: 15px;
-    color: #B0ECE5;   
-    text-decoration: none;
-}
+    #april {
+        margin-right: 15px;
+        color: #B0ECE5;
+        text-decoration: none;   
+    }
 
-#october:hover {
-    text-decoration: line-through;
-}
+    #april:hover {
+        text-decoration: line-through;   
+    } 
 
-#november {
-    margin-right: 15px;
-    color: #B0ECE5;  
-    text-decoration: none;
-}
+    #may {
+        margin-right: 15px;
+        color:#B0ECE5;   
+        text-decoration: none;
+    } 
 
-#november:hover {
-    text-decoration: line-through;
-}
+    #may:hover {
+        text-decoration: line-through;
+    } 
 
-#december {
-    margin-right: 15px;
-    color: #B0ECE5;
-    text-decoration: none;
-}
+    #june {
+        margin-right: 15px;
+        color: #B0ECE5;    
+        text-decoration: none;
+    }
 
-#december:hover {
-    text-decoration: line-through;
-}
+    #june:hover {
+        text-decoration: line-through;
+    } 
 
-#footerblog {
-    grid-area: icons;
-    margin-left: 20px;
-    cursor: pointer;
-}
+    #july {
+        margin-right: 15px;
+        color: #B0ECE5;    
+        text-decoration: none;
+    }
 
-.iconsblog {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-}
+    #july:hover {
+        text-decoration: line-through;
+    } 
 
-.iconsblog:hover {
-    width: 30px;
-    height: 30px;
-    transition: .4s;
+    #august {
+        margin-right: 15px;
+        color: #B0ECE5;  
+        text-decoration: none;
+    } 
+
+    #august:hover {
+        text-decoration: line-through;
+    } 
+
+    #september {
+        margin-right: 15px;
+        color: #B0ECE5;   
+        text-decoration: none;
+    } 
+
+    #september:hover {
+        text-decoration: line-through;
+    } 
+
+
+    #october {
+        margin-right: 15px;
+        color: #B0ECE5;   
+        text-decoration: none;
+    }
+
+    #october:hover {
+        text-decoration: line-through;
+    }
+
+    #november {
+        margin-right: 15px;
+        color: #B0ECE5;  
+        text-decoration: none;
+    }
+
+    #november:hover {
+        text-decoration: line-through;
+    }
+
+    #december {
+        margin-right: 15px;
+        color: #B0ECE5;
+        text-decoration: none;
+    }
+
+    #december:hover {
+        text-decoration: line-through;
+    }
+
+    #footerblog {
+        grid-area: icons;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .iconsblog {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+
+    .iconsblog:hover {
+        width: 30px;
+        height: 30px;
+        transition: .4s;
+    }
 }
 
 /*Devices with long screens. min 768px*/
