@@ -148,8 +148,17 @@
     }
      
     .suscribe {
-        font-size: 15px;      /*nuevo*/
+        font-size: 20px;      /*nuevo*/
         padding: 6px;      /*original*/
+    }
+     
+     .search {
+        padding: 12px;       /*nuevo*/
+        font-size: 18px;   /*original*/     
+    }
+
+    #btnsearch {
+        font-size: 20px;    /*original*/
     }
  }
 
@@ -181,10 +190,5 @@
         ". post9 post9 . post10 post10 ."
         " . . . . . footer footer";
         grid-row-gap: 150px;  
-    }
-    
-    .suscribe {
-        font-size: 15px;      /*nuevo*/
-        padding: 6px;      /*original*/
     }
 }
