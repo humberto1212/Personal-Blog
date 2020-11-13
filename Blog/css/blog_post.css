@@ -10,9 +10,9 @@
 }
 
 .backhome {
-    position: absolute;
+    /*position: absolute;
     left: 130px;
-    bottom: 600px;
+    bottom: 600px;*/
     font-weight: 400;
     padding: 7px;
     background-color: #F8B32E;  
