@@ -57,6 +57,12 @@ color:#11161A;
     padding-left: 30px;
 }
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .suscribe {
     color: #faf0db;
     font-weight: 400;
