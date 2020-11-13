@@ -74,7 +74,7 @@
         width: 60px;
         border-width: 2px;
         font-size: 25px;      /*nuevo*/
-        padding: 16px;      /*lo subi 10px*/
+        padding: 12px;      /*lo subi 6px*/
         border-radius: 10px;
         cursor: pointer;
     }
