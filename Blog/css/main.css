@@ -3,7 +3,7 @@
 @import url(./footer_main.css);
 
 /*small screen devices - more than 360px*/
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
 
     
     .firstcontainer {
