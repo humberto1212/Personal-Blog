@@ -2,130 +2,134 @@
 @import url(./image_main.css);
 @import url(./footer_main.css);
 
-.firstcontainer {
-    background-color: white;
-    width:100vw;
-     height:100vw;
-     padding-top:2050px;
-     padding-bottom:2050px;
-     display:flex;
-     flex-direction:column;
-     justify-content: center;
-     align-items: center;
-}
+/*small screen devices - more than 360px*/
+@media screen and (min-width: 360px) {
 
-.secondcontainer {
-    width: 400px;
-    height: 4500px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 62px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
-    grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px;
-    grid-template-areas:
-    "head head head head head head head"
-    ". post1 post1 post1 post1 post1 post1"
-    ". post2 post2 post2 post2 post2 post2"
-    ". post3 post3 post3 post3 post3 post3"
-    ". post4 post4 post4 post4 post4 post4"
-    ". post5 post5 post5 post5 post5 post5"
-    ". post6 post6 post6 post6 post6 post6"
-    ". info info info info info info"
-    ". post7 post7 post7 post7 post7 post7"
-    ". post8 post8 post8 post8 post8 post8"
-    ". post9 post9 post9 post9 post9 post9"
-    ". post10 post10 post10 post10 post10 post10"
-    "footer footer footer footer footer footer footer";
-    grid-row-gap: 150px;   
-}
+    
+    .firstcontainer {
+        background-color: white;
+        width:100vw;
+        height:100vw;
+        padding-top:2050px;
+        padding-bottom:2050px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
 
-p {
-color:#11161A;
-}
+    .secondcontainer {
+        width: 400px;
+        height: 4500px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(0, 0, 0, 0.25);
+        border-radius: 62px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
+        grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas:
+        "head head head head head head head"
+        ". post1 post1 post1 post1 post1 post1"
+        ". post2 post2 post2 post2 post2 post2"
+        ". post3 post3 post3 post3 post3 post3"
+        ". post4 post4 post4 post4 post4 post4"
+        ". post5 post5 post5 post5 post5 post5"
+        ". post6 post6 post6 post6 post6 post6"
+        ". info info info info info info"
+        ". post7 post7 post7 post7 post7 post7"
+        ". post8 post8 post8 post8 post8 post8"
+        ". post9 post9 post9 post9 post9 post9"
+        ". post10 post10 post10 post10 post10 post10"
+        "footer footer footer footer footer footer footer";
+        grid-row-gap: 150px;   
+    }
 
-.maintitle {
-    margin-bottom: 0;
-}
+    p {
+        color:#11161A;
+    }
 
-.header {
-    grid-area: head;
-    display:flex;
-    flex-direction: column;
-    padding-top: 60px;
-    padding-right: 25px;
-    padding-left: 30px;
-}
+    .maintitle {
+        margin-bottom: 0;
+    }
 
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+    .header {
+        grid-area: head;
+        display:flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding-right: 25px;
+        padding-left: 30px;
+    }
 
-.suscribe {
-    color: #faf0db;
-    font-weight: 400;
-    background-color: #F8B32E;  
-    width: 60px;
-    border-width: 2px;
-    padding: 6px;
-    border-radius: 10px;
-    cursor: pointer;
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-}
+    .suscribe {
+        color: #faf0db;
+        font-weight: 400;
+        background-color: #F8B32E;  
+        width: 60px;
+        border-width: 2px;
+        padding: 6px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 
-.search {
-    color: #F8B32E;
-    font-size: 18px;
-    margin-top:20px;
-    cursor: pointer;
-}
+    .search {
+        color: #F8B32E;
+        font-size: 18px;
+        margin-top:20px;
+        cursor: pointer;
+    }
 
-#btnsearch {
-    font-size: 20px;
-}
+    #btnsearch {
+        font-size: 20px;
+    }
 
- .info {
-    grid-area:info;
-    padding-right: 90px;
- }
+    .info {
+        grid-area:info;
+        padding-right: 90px;
+     }
 
- #divinfo {  
-    border-color: #5C3F04;
- }    
+    #divinfo {  
+        border-color: #5C3F04;
+     }    
 
- .exptext {
-     display:flex;
-     justify-content: space-between;     
- }
+    .exptext {
+        display:flex;
+        justify-content: space-between;     
+    }
 
- #exptexts1 {
-    width: 650px;
-    height:210px;
-    text-align:center; 
-    margin: 10px;
-    border-radius: 200px;
-    overflow: hidden;
- }
+    #exptexts1 {
+        width: 650px;
+        height:210px;
+        text-align:center; 
+        margin: 10px;
+        border-radius: 200px;
+        overflow: hidden;
+    }
 
- #exptexts2 {
-    width: 650px;
-    height:210px;
-    text-align:center; 
-    margin: 10px;
-    border-radius: 200px;
-    overflow: hidden;
- }
+    #exptexts2 {
+        width: 650px;
+        height:210px;
+        text-align:center; 
+        margin: 10px;
+        border-radius: 200px;
+        overflow: hidden;
+    }
 
- #exptexts3 {
-    width: 650px;
-    height:210px;
-    text-align:center; 
-    margin: 10px;
-    border-radius: 200px;
-    overflow: hidden;
- }
+    #exptexts3 {
+        width: 650px;
+        height:210px;
+        text-align:center; 
+        margin: 10px;
+        border-radius: 200px;
+        overflow: hidden;
+    }
+ } 
 
  /*Devices with long screens. min 768px*/
  @media screen and (max-width: 1149px) and (min-width: 768px) {
