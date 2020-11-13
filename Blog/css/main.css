@@ -73,20 +73,21 @@
         background-color: #F8B32E;  
         width: 60px;
         border-width: 2px;
-        padding: 6px;
+        font-size: 25px      /*nuevo*/
+        padding: 16px;      /*lo subi 10px*/
         border-radius: 10px;
         cursor: pointer;
     }
 
     .search {
         color: #F8B32E;
-        font-size: 18px;
+        font-size: 18px;   /*lo subi 10px*/     
         margin-top:20px;
         cursor: pointer;
     }
 
     #btnsearch {
-        font-size: 20px;
+        font-size: 30px;    /*lo subi 10px*/
     }
 
     .info {
