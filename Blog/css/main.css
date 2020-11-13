@@ -2,7 +2,8 @@
 @import url(./image_main.css);
 @import url(./footer_main.css);
 
-
+/*Devices with long screens. min 768px*/
+ @media screen and (min-width: 360px) {
     
     .firstcontainer {
         background-color: white;
@@ -127,6 +128,7 @@
         border-radius: 200px;
         overflow: hidden;
     }
+ }
 
  /*Devices with long screens. min 768px*/
  @media screen and (max-width: 1149px) and (min-width: 768px) {
