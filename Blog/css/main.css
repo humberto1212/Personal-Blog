@@ -81,8 +81,8 @@
 
     .search {
         color: #F8B32E;
-        padding: 6px;       /*nuevo*/
-        font-size: 18px;   /*lo subi 10px*/     
+        padding: 12px;       /*nuevo*/
+        font-size: 28px;   /*lo subi 20px*/     
         margin-top:20px;
         cursor: pointer;
     }
@@ -146,6 +146,11 @@
         width: 700px;
         height: 4500px;;     
     }
+     
+    .suscribe {
+        font-size: 15px;      /*nuevo*/
+        padding: 6px;      /*original*/
+    }
  }
 
 /*If screen is wide enough - more than 1150px*/
@@ -176,5 +181,10 @@
         ". post9 post9 . post10 post10 ."
         " . . . . . footer footer";
         grid-row-gap: 150px;  
+    }
+    
+    .suscribe {
+        font-size: 15px;      /*nuevo*/
+        padding: 6px;      /*original*/
     }
 }
