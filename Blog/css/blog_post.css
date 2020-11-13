@@ -187,62 +187,124 @@
 
 #january {
     margin-right: 15px;
-    color: #B0ECE5;   
+    color: #B0ECE5;
+    text-decoration: none;   
+}
+
+#january:hover {
+    text-decoration: line-through;
 }
 
 #february { 
     margin-right: 15px; 
-    color: #B0ECE5;  
+    color: #B0ECE5;
+    text-decoration: none;  
+}
+
+#february:hover { 
+    text-decoration: line-through; 
 }
 
 #march {
     margin-right: 15px;
     color: #B0ECE5;    
+    text-decoration: none;
 }
+
+#march:hover {
+    text-decoration: line-through;
+}
+
 
 #april {
     margin-right: 15px;
-    color: #B0ECE5;   
+    color: #B0ECE5;
+    text-decoration: none;   
+}
+
+#april:hover {
+    text-decoration: line-through;   
 } 
 
 #may {
     margin-right: 15px;
     color:#B0ECE5;   
+    text-decoration: none;
+} 
+
+#may:hover {
+    text-decoration: line-through;
 } 
 
 #june {
     margin-right: 15px;
     color: #B0ECE5;    
+    text-decoration: none;
+}
+
+#june:hover {
+    text-decoration: line-through;
 } 
 
 #july {
     margin-right: 15px;
     color: #B0ECE5;    
+    text-decoration: none;
+}
+
+#july:hover {
+    text-decoration: line-through;
 } 
 
 #august {
     margin-right: 15px;
     color: #B0ECE5;  
+    text-decoration: none;
+} 
+
+#august:hover {
+    text-decoration: line-through;
 } 
 
 #september {
     margin-right: 15px;
     color: #B0ECE5;   
+    text-decoration: none;
 } 
+
+#september:hover {
+    text-decoration: line-through;
+} 
+
 
 #october {
     margin-right: 15px;
     color: #B0ECE5;   
+    text-decoration: none;
+}
+
+#october:hover {
+    text-decoration: line-through;
 }
 
 #november {
     margin-right: 15px;
     color: #B0ECE5;  
+    text-decoration: none;
+}
+
+#november:hover {
+    text-decoration: line-through;
 }
 
 #december {
     margin-right: 15px;
     color: #B0ECE5;
+    text-decoration: none;
+}
+
+#december:hover {
+    text-decoration: line-through;
 }
 
 #footerblog {
