@@ -26,7 +26,7 @@
         border-radius: 62px;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
-        grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-rows: 30px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; /*agrege 4 mas*/
         grid-template-areas:
         "head head head head head head head"
         ". post1 post1 post1 post1 post1 post1"
@@ -81,6 +81,7 @@
 
     .search {
         color: #F8B32E;
+        padding: 6px;       /*nuevo*/
         font-size: 18px;   /*lo subi 10px*/     
         margin-top:20px;
         cursor: pointer;
