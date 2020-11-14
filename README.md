@@ -9,6 +9,4 @@ Please visit the link below to see the page:
 
 https://humberto1212.github.io/Personal-Blog/Blog/main_page.html
 
-<video width="320" height="540" controls>
-<source src="./Screen/screen.mov" type="video/mp4">
-</video>
+<img>src="./Screen/screen.mov" alt="screen capture of the Webside">
