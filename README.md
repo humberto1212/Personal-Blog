@@ -9,4 +9,3 @@ Please visit the link below to see the page:
 
 https://humberto1212.github.io/Personal-Blog/Blog/main_page.html
 
-<img src="./Gif/screencapture.mov" alt="screen capture of the Webside" style="max-width: 100%;">
