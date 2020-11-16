@@ -1,5 +1,5 @@
-/*Devices with small screens. min 360px*/
- @media screen and (min-width: 360px) {
+/*Devices with small screens. min 300px*/
+ @media screen and (min-width: 300px) {
 
 
     .firstcontainer_post {
