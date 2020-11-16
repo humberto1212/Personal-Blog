@@ -2,7 +2,7 @@
 @import url(./image_main.css);
 @import url(./footer_main.css);
 
-/*Devices with small screens. min 360px*/
+/*Devices with small screens. min 300px*/
  @media screen and (min-width: 300px) {
     
     .firstcontainer {
