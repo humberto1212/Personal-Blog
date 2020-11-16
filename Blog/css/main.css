@@ -3,7 +3,7 @@
 @import url(./footer_main.css);
 
 /*Devices with small screens. min 360px*/
- @media screen and (min-width: 360px) {
+ @media screen and (min-width: 300px) {
     
     .firstcontainer {
         background-color: white;
