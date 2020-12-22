@@ -1,11 +1,16 @@
 # My first project: Personal-Blog
 
-Personal Blog Website Project
-Using HTML5, CSS3 including custom images, layout, and styling.<br>
-This is a responsive blog design. I have applied rules such as Flexbox, CSS Grid and media queries.<br>
-.<br>
-.<br>
-Please visit the link below to see the page:
+This Project is an example of a dynamic Personal Blog Website.  
 
-https://humberto1212.github.io/Personal-Blog/Blog/main_page.html
+## Specifications
+
+### The project was written with:
+1. HTML5 
+
+2. CSS3
+- Flexbox
+- CSS Grid
+- Media queries
+ 
+[Please click on the link to see the page](https://humberto1212.github.io/Personal-Blog/Blog/main_page.html)
 
